@@ -62,11 +62,15 @@ try:
 
 except RuntimeError as e:
 
+    pass
+
     # print output.line('Unable to process the kit with the ID "' + typeKitId + '".');
     # print output.line('Please double check your Kit ID and API Key.');
     # print output.line('Internal error: "' + str(e) + '"');
 
 except:
+
+    pass
 
     # print output.line('Please see the following URL for setup configuration settings:');
     # print output.line('https://github.com/jedkirby/heroku-buildpack-typekit');
