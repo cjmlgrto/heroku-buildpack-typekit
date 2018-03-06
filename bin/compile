@@ -48,7 +48,7 @@ try:
     typeKitDomains = kit['domains'];
 
     if herokuAppUrl in typeKitDomains:
-        # print output.line('The domain "' + herokuAppUrl + '" has already been added into Typekit.');
+        pass
     else:
         typeKitDomains.append(herokuAppUrl);
 
